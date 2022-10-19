@@ -5,7 +5,7 @@ USE events_db;
 
 CREATE TABLE events(
    id INT NOT NULL AUTO_INCREMENT,
-   title VARCHAR(255) NOT NULL,
+   title VARCHAR(255)  NULL,
    description TEXT NOT NULL,
    location VARCHAR(255) NOT NULL,
    image VARCHAR(255) NOT NULL,
